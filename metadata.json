@@ -1,0 +1,6 @@
+{
+  "name": "SafeCross - Smart Protection. Safer Digital Life.",
+  "description": "SafeCross cybersecurity platform helps users and administrators identify malicious URLs, phishing attacks, suspicious APK files, and manage cross-platform endpoint policies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

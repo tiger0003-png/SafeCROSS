@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Theme system: Smooth dark & light mode adaptation for SafeCross */
+:root {
+  color-scheme: dark;
+}
+
+.light {
+  color-scheme: light;
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+.light h1,
+.light h2,
+.light h3,
+.light h4 {
+  color: #0F172A !important;
+}
+
+.light .bg-\[\#151F30\] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+}
+
+.light .bg-\[\#101827\] {
+  background-color: #F1F5F9 !important;
+  border-color: #CBD5E1 !important;
+}
+
+.light .bg-\[\#0B1220\] {
+  background-color: #F8FAFC !important;
+}
+
+.light .border-\[\#263449\] {
+  border-color: #E2E8F0 !important;
+}
+
+.light .text-slate-100,
+.light .text-slate-200,
+.light .text-\[\#F8FAFC\] {
+  color: #0F172A !important;
+}
+
+.light .text-slate-300,
+.light .text-slate-400,
+.light .text-\[\#94A3B8\] {
+  color: #475569 !important;
+}
+
+.light input,
+.light textarea {
+  color: #0F172A !important;
+}
+
+.light input::placeholder {
+  color: #94A3B8 !important;
+}
